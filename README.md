@@ -9,6 +9,7 @@ Course Instructor: Stuart Bowman (e.g. [buffetboy2001](https://github.com/buffet
 A basic instruction to the interdisciplinary world of robotics will be covered. Students are not expected to have any technical background at all, but will learn little-by-little along the way using hands-on projects.
 
 We'll cover:
+
 * Robotics Overview
 * Introduction the Raspberry Pi computer
 * Introduction to the Python programming language
@@ -18,7 +19,7 @@ We'll cover:
 
 ## Syllabus
 
-TODO :(
+Take a look at the [component Excel sheet](./resources/syllabus.md).
 
 ## Itemized List
 
