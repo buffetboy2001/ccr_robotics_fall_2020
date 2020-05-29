@@ -19,7 +19,7 @@ We'll cover:
 
 ## Syllabus
 
-Take a look at the [component Excel sheet](./resources/syllabus.md).
+Take a look at the [course syllabus](./resources/syllabus.md).
 
 ## Itemized List
 
