@@ -2,11 +2,12 @@
 from gpiozero import Robot
 import time
 
-robby = Robot(right=(7,8), left=(9,10))
+robby = Robot(left=(8, 7), right=(9, 10))
 
-# robby.forward()  # async
+robby.forward(.5)  # async
 # robby.backward()
-robby.right(1)
+time.sleep(1)
+robby.right(.5)
 # robby.left(1)
-time.sleep(1.1)
+time.sleep(1)
 robby.stop() # async
