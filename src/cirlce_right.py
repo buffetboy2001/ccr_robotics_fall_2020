@@ -2,7 +2,7 @@
 from gpiozero import Robot
 import time
 
-robby = Robot(right=(7,8), left=(9,10))
+robby = Robot(left=(8, 7), right=(9, 10))
 
 robby.forward(curve_right=.5)  # async
 time.sleep(20)
