@@ -4,7 +4,9 @@
 from gpiozero import Robot
 import time
 
-robby = Robot(left=(7,8), right=(9,10))
+robby = Robot(left=(8, 7), right=(9, 10))
+
+SLEEP_TIME_SECONDS = 1 
 
 def do_short_leg():
     '''
@@ -12,10 +14,10 @@ def do_short_leg():
     '''
 
     robby.forward() # starts forward motion and returns
-    time.sleep(9)
+    time.sleep(SLEEP_TIME_SECONDS)
     robby.stop()
-    robby.right(.8)
-    time.sleep(1.5)
+    robby.right(.4)
+    time.sleep(SLEEP_TIME_SECONDS)
     robby.stop()
 
     return
