@@ -6,7 +6,9 @@ import time
 
 robby = Robot(left=(8, 7), right=(9, 10))
 
-SLEEP_TIME_SECONDS = 1 
+SLEEP_TIME_SECONDS = 0.5
+TURN_SPEED = 1
+
 
 def do_short_leg():
     '''
@@ -14,15 +16,16 @@ def do_short_leg():
     '''
 
     robby.forward() # starts forward motion and returns
-    time.sleep(SLEEP_TIME_SECONDS)
+    time.sleep(3*SLEEP_TIME_SECONDS)
     robby.stop()
-    robby.right(.4)
+    robby.right(TURN_SPEED)
     time.sleep(SLEEP_TIME_SECONDS)
     robby.stop()
 
     return
 
 #-------
-do_short_leg()
+for i in range(1,5):
+    do_short_leg()
 
  
