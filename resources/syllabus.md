@@ -19,4 +19,8 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 12|03-Dec-20|Build Session|
 13|10-Dec-20|Build Session|
 
+Not yet represented:
+
+- Basic electronics discussion (using the L298N motor controller)
+
 **NOTE**: There may be an opportunity for a field trip to VATech. Details are TBD.
