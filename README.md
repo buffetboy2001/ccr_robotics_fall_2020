@@ -8,6 +8,8 @@ Course Instructor: Stuart Bowman (e.g. [buffetboy2001](https://github.com/buffet
 
 A basic instruction to the interdisciplinary world of robotics will be covered. Students are not expected to have any technical background at all, but will learn little-by-little along the way using hands-on projects.
 
+![](resources/pics/vehicle_battery_on_floor.jpg)
+
 We'll cover:
 
 * Robotics Overview

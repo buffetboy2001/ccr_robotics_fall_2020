@@ -4,7 +4,7 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 
 | Week Number | Class Date | Concepts Covered |
 | --- | --- | --- |
-1 |10-Sep-20|Introduction to Robotics |
+1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
 2 |17-Sep-20|Build Session|
 3 |24-Sep-20|Build Session|
 4|01-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
