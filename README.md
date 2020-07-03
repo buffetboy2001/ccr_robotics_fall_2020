@@ -2,7 +2,7 @@
 
 Course materials for Fall 2020 robotics class at [Cornerstone Classical Roanoke](https://cornerstoneclassicalroanoke.org/).
 
-Course Instructor: Stuart Bowman (e.g. [buffetboy2001](https://github.com/buffetboy2001))
+Course Instructor: Stuart Bowman (e.g. [buffetboy2001 on GitHub](https://github.com/buffetboy2001), [faculty listing](https://cornerstoneclassicalroanoke.org/stuart-bowman))
 
 ## Course Goals
 
