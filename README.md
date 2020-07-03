@@ -26,3 +26,11 @@ Take a look at the [course syllabus](./resources/syllabus.md).
 ## Itemized List
 
 Take a look at the [component Excel sheet](./resources/component_sheet.xlsx).
+
+## Extra Credit
+
+Want to take your project further? Consider these fun tasks:
+
+* Make the vehicle turn in a circle
+* Make the vehicle turn a precise 90 degree turn
+* Make the plot and follow a square and end up close to where it started -- this is challenging and may require [more sensors!](https://www.raspberrypi.org/products/sense-hat/).
