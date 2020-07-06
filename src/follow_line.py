@@ -7,12 +7,12 @@ robby = None
 
 def left_line_detected_response():
     print('turn left slightly')
-    robby.forward(curve_left=.5)  # async
+    robby.forward(curve_left=.75)
     return
 
 def right_line_detected_response():
     print('turn right slightly')
-    robby.forward(curve_right=.5)  # async
+    robby.forward(curve_right=.75)
     return
 
 def when_no_line_do_this():
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
     # find the line first by hunting left & right
     while right_sensor.value > 0.25:
-        robby.left(0.5)  # async
+        robby.left(0.3)  # async
         sleep(.1) 
 
     pause()
