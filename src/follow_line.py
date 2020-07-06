@@ -37,6 +37,11 @@ if __name__ == "__main__":
     left_sensor.when_line = left_line_detected_response
     right_sensor.when_line = right_line_detected_response
 
+    # find the line first by hunting left & right
+    while right_sensor.value > 0.25:
+        robby.left(0.5)  # async
+        sleep(.1) 
+
     pause()
     
     print("done")
