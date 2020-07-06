@@ -22,9 +22,9 @@ if __name__ == "__main__":
     left_sensor = LineSensor(21)
     # right_sensor = LineSensor(2)
 
-    left_sensor.when_line = lambda: print('Line detected @ left sensor') # left_line_detected_response()
+    left_sensor.when_no_line = lambda: print('Line detected @ left sensor') # left_line_detected_response()
     # right_sensor.when_line = lambda: print('Line detected @ right sensor') # right_line_detected_response()
-    left_sensor.when_no_line = lambda: print('No line detected') # when_no_line_do_this()
+    left_sensor.when_line = lambda: print('No line detected') # when_no_line_do_this()
     # right_sensor.when_no_line = lambda: print('No line detected') # when_no_line_do_this()
 
     pause()
