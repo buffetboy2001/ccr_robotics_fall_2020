@@ -6,13 +6,15 @@ from time import sleep
 robby = None
 
 def left_line_detected_response():
-    pass
+    print('turn left slightly')
+    return
 
 def right_line_detected_response():
-    pass
+    print('turn right slightly')
+    return
 
 def when_no_line_do_this():
-    robby.forward()
+    robby.forward(.5)
     return
 
 if __name__ == "__main__":
@@ -30,8 +32,8 @@ if __name__ == "__main__":
     right_sensor.when_no_line = when_no_line_do_this
 
     # no line detected behavior
-    left_sensor.when_line = lambda: print('No line detected') # when_no_line_do_this()
-    right_sensor.when_line = lambda: print('No line detected') # when_no_line_do_this()
+    left_sensor.when_line = left_line_detected_response
+    right_sensor.when_line = right_line_detected_response
 
     pause()
     
