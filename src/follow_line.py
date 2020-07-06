@@ -7,10 +7,12 @@ robby = None
 
 def left_line_detected_response():
     print('turn left slightly')
+    robby.forward(curve_left=.5)  # async
     return
 
 def right_line_detected_response():
     print('turn right slightly')
+    robby.forward(curve_right=.5)  # async
     return
 
 def when_no_line_do_this():
