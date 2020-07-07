@@ -7,19 +7,19 @@ robby = None
 
 def left_line_detected_response():
     print('turn left')
-    robby.stop()
-    # robby.forward(curve_left=0.5)
-    robby.left(.5)
-    sleep(.3)
+    # robby.stop()
+    robby.forward(curve_left=0.85)
+    # robby.left(.5)
+    sleep(.8)
     robby.forward(0.5)
     return
 
 def right_line_detected_response():
     print('turn right')
-    robby.stop()
-    robby.right(0.5)
-    # robby.forward(curve_right=0.5)
-    sleep(.3)
+    # robby.stop()
+    # robby.right(0.5)
+    robby.forward(curve_right=0.85)
+    sleep(.8)
     robby.forward(0.5)
     return
 
