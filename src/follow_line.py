@@ -7,12 +7,16 @@ robby = None
 
 def left_line_detected_response():
     print('turn left slightly')
-    robby.forward(curve_left=.75)
+    robby.forward(curve_left=1)
+    sleep(.5)
+    robby.forward()
     return
 
 def right_line_detected_response():
     print('turn right slightly')
-    robby.forward(curve_right=.75)
+    robby.forward(curve_right=1)
+    sleep(.5)
+    robby.forward()
     return
 
 def when_no_line_do_this():
