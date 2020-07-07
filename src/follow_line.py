@@ -40,11 +40,11 @@ if __name__ == "__main__":
     # find the line first by hunting left & right
     # print(str(right_sensor.value))
     # print(str(left_sensor.value))
-    robby.left(0.5)  # async
-    sleep(.5) 
+    #robby.left(0.6)  # async
+    #sleep(.5) 
     # print(str(right_sensor.value))
     # print(str(left_sensor.value))
-
+    robby.forward(0.7)
     pause()
     
     print("done")
