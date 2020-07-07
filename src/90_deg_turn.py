@@ -1,8 +1,9 @@
 # Write your code here :-)
 from gpiozero import Robot
 import time
+import setup
 
-robby = Robot(left=(8, 7), right=(9, 10))
+robby = setup.get_robby()
 
 sleep_time_sec = 0.5
 turn_speed = 1 
