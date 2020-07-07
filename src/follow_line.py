@@ -7,17 +7,13 @@ robby = None
 
 def left_line_detected_response():
     print('turn left')
-    # robby.stop()
     robby.forward(curve_left=0.85)
-    # robby.left(.5)
     sleep(.8)
     robby.forward(0.5)
     return
 
 def right_line_detected_response():
     print('turn right')
-    # robby.stop()
-    # robby.right(0.5)
     robby.forward(curve_right=0.85)
     sleep(.8)
     robby.forward(0.5)
@@ -45,13 +41,7 @@ if __name__ == "__main__":
     left_sensor.when_line = left_line_detected_response
     right_sensor.when_line = right_line_detected_response
 
-    # find the line first by hunting left & right
-    # print(str(right_sensor.value))
-    # print(str(left_sensor.value))
-    #robby.left(0.6)  # async
-    #sleep(.5) 
-    # print(str(right_sensor.value))
-    # print(str(left_sensor.value))
+    # start by going forward
     robby.forward(0.7)
     pause()
     
