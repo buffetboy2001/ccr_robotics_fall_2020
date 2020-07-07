@@ -8,14 +8,14 @@ robby = None
 def left_line_detected_response():
     print('turn left')
     robby.forward(curve_left=0.85)
-    sleep(.8)
+    sleep(.2)
     robby.forward(0.5)
     return
 
 def right_line_detected_response():
     print('turn right')
     robby.forward(curve_right=0.85)
-    sleep(.8)
+    sleep(.2)
     robby.forward(0.5)
     return
 
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     right_sensor.when_line = right_line_detected_response
 
     # start by going forward
-    robby.forward(0.7)
+    robby.forward(0.5)
     pause()
     
     print("done")
