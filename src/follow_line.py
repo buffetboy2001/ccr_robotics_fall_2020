@@ -3,24 +3,28 @@ from gpiozero import LineSensor
 from signal import pause
 from time import sleep
 
+FORWARD_SPEED = 0.4
+CURVE_FRACTION = 0.85
+SLEEP_DURATION_SECONDS = 0.3
+
 robby = None
 
 def left_line_detected_response():
     print('turn left')
-    robby.forward(curve_left=0.85)
-    sleep(.2)
-    robby.forward(0.5)
+    robby.forward(curve_left=CURVE_DURATION)
+    sleep(SLEEP_DURATION_SECONDS)
+    robby.forward(FORWARD_SPEED)
     return
 
 def right_line_detected_response():
     print('turn right')
-    robby.forward(curve_right=0.85)
-    sleep(.2)
-    robby.forward(0.5)
+    robby.forward(curve_right=CURVE_FRACTION)
+    sleep(SLEEP_DURATION_SECONDS)
+    robby.forward(FORWARD_SPEED)
     return
 
 def when_no_line_do_this():
-    robby.forward(.5)
+    robby.forward(FORWARD_SPEED)
     return
 
 if __name__ == "__main__":
@@ -42,7 +46,7 @@ if __name__ == "__main__":
     right_sensor.when_line = right_line_detected_response
 
     # start by going forward
-    robby.forward(0.5)
+    robby.forward(FORWARD_SPEED)
     pause()
     
     print("done")
