@@ -3,15 +3,15 @@ from gpiozero import LineSensor
 from signal import pause
 from time import sleep
 
-FORWARD_SPEED = 0.4
-CURVE_FRACTION = 0.85
+FORWARD_SPEED = 0.5
+CURVE_FRACTION = 0.65
 SLEEP_DURATION_SECONDS = 0.3
 
 robby = None
 
 def left_line_detected_response():
     print('turn left')
-    robby.forward(curve_left=CURVE_DURATION)
+    robby.forward(curve_left=CURVE_FRACTION)
     sleep(SLEEP_DURATION_SECONDS)
     robby.forward(FORWARD_SPEED)
     return
