@@ -3,22 +3,23 @@ from gpiozero import LineSensor
 from signal import pause
 from time import sleep
 
-DEADBAND_DURATION_SEC = 0.2
+CURVE_FRACTION = 0.65
+SLEEP_DURATION_SECONDS = 0.3
 FORWARD_SPEED = 0.5 # below 0.5 and there is too much friction to move
 
 robby = None
 
 def left_line_detected_response():
     print('turn left')
-    robby.forward(curve_left=0.85)
-    sleep(DEADBAND_DURATION_SEC)
+    robby.forward(curve_left=CURVE_FRACTION)
+    sleep(SLEEP_DURATION_SECONDS)
     robby.forward(FORWARD_SPEED)
     return
 
 def right_line_detected_response():
     print('turn right')
-    robby.forward(curve_right=0.85)
-    sleep(DEADBAND_DURATION_SEC)
+    robby.forward(curve_right=CURVE_FRACTION)
+    sleep(SLEEP_DURATION_SECONDS)
     robby.forward(FORWARD_SPEED)
     return
 
