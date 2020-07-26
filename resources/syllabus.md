@@ -4,8 +4,14 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 
 | Week Number | Class Date | Concepts Covered |
 | --- | --- | --- |
-1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
+1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
+| | | * Get to know each other |
+| | |  * What do _you_ think robotics is? |
+| | |  * What is robotics? |
+| | |  * Introduction to our project |
 2 |17-Sep-20|Build Session|
+| | |  * Team Assignments and Team names |
+| | |  * Review project materials -- get started! |
 3 |24-Sep-20|Build Session|
 4|01-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
 5|08-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
@@ -17,10 +23,13 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 11|19-Nov-20|Build Session|
 --|26-Nov-20|No School -- Thanksgiving Break|
 12|03-Dec-20|Build Session|
-13|10-Dec-20|Build Session|
+13|10-Dec-20|Show Us Your Robot!|
 
 Not yet represented:
 
 - Basic electronics discussion (using the L298N motor controller)
+- Paper assignment -- topic TBD
+
+Build Sessions will be open times of building the robot and learning to make it drive various patterns. There will be a few challenges that each team will attempt to complete.
 
 **NOTE**: There may be an opportunity for a field trip to VATech. Details are TBD.
