@@ -7,12 +7,14 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
 | | | * Get to know each other |
 | | |  * What do _you_ think robotics is? |
-| | |  * What is robotics? |
-| | |  * Introduction to our project |
-2 |17-Sep-20|Build Session|
+| | |  * What is robotics -- actually? Examples. |
+| | |  * Introduction to our project, what we're going to do, what we're going to learn |
+2 | 17-Sep-20 | Build Session |
 | | |  * Team Assignments and Team names |
-| | |  * Review project materials -- get started! |
+| | |  * Select your chassis |
+| | |  * Review project materials -- get building! |
 3 |24-Sep-20|Build Session|
+| | | * Show-n-Tell: Teams show their vehicles & talk about team decisions |
 4|01-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
 5|08-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
 6|15-Oct-20|Build Session|
