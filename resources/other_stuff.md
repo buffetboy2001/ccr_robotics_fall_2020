@@ -2,6 +2,13 @@
 
 * L298N focused discussion: https://www.teachmemicro.com/use-l298n-motor-driver/
 * Line Following Discussion: https://create.arduino.cc/projecthub/robocircuits/line-follower-robot-arduino-299bae
+* Switch Circuit: https://www.circuitbasics.com/how-to-set-up-buttons-and-switches-on-the-raspberry-pi/
+* 3D Base Plate for Pi: https://www.thingiverse.com/thing:4175498
+
+## Pre-class Setup Todo
+
+*  Make each Kano to setup a wifi share by default. Make each rpi connect only to correct kano.
+
 
 ----
 
@@ -24,6 +31,7 @@ You will need these on your project mat:
 * the Motor Controller Board (L298N)
 * AA battery holder
 * Both motors (wheels don't need to be connected). Wires must be connected.
+* Raspberry Pi
 
 Assembly Steps:
 
@@ -35,3 +43,5 @@ Assembly Steps:
     * Black wire to GND
     * Red wire to 12V
 * Tighten all screws _gently_ so that the wires stay in-place.
+
+

@@ -15,7 +15,7 @@ We'll cover:
 * Robotics Overview
 * Introduction the Raspberry Pi computer
 * Introduction to the Python programming language
-* Introdution to electronics
+* Introduction to electronics
 * And...we'll build a [simple buggy!](https://projects.raspberrypi.org/en/projects/build-a-buggy)
 * And...then we'll make it [drive on it's own!](https://projects.raspberrypi.org/en/projects/rpi-python-line-following).
 
