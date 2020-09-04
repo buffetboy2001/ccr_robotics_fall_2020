@@ -5,7 +5,7 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 | Week Number | Class Date | Concepts Covered |
 | --- | --- | --- |
 1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
-| | | * Get to know each other |
+| | |  * Get to know each other |
 | | |  * What do _you_ think robotics is? |
 | | |  * What is robotics -- actually? Examples. |
 | | |  * Introduction to our project, what we're going to do, what we're going to learn |
