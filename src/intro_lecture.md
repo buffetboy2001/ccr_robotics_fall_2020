@@ -42,3 +42,6 @@ And look super creepy...
 
 <img src="../resources/pics/robotic_examples/sophia_hanson.png" alt="Sophia by Hanson Robotics" width="200"/>
 
+---
+
+So: what _is_ a robot?
