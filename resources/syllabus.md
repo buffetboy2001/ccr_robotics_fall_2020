@@ -7,7 +7,7 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
 | | |  * Get to know each other |
 | | |  * What do _you_ think robotics is? |
-| | |  * What is robotics -- actually? Examples. |
+| | |  * What is robotics -- actually? [Consider these examples.](./intro_lecture.md) |
 | | |  * Introduction to our project, what we're going to do, what we're going to learn |
 2 | 17-Sep-20 | Build Session |
 | | |  * Team Assignments and Team names |
@@ -29,8 +29,10 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 
 Not yet represented:
 
+[other stuff](./other_stuff.md)
+
 - Basic electronics discussion (using the L298N motor controller)
-- Paper assignment -- topic TBD
+- Paper assignment -- topic "Tell me about a robotics project that interests you"
 
 Build Sessions will be open times of building the robot and learning to make it drive various patterns. There will be a few challenges that each team will attempt to complete.
 
