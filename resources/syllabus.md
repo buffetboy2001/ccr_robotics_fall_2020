@@ -6,12 +6,13 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 | --- | --- | --- |
 1 |10-Sep-20|Introduction to Robotics & our Buggy Project |
 | | |  * Get to know each other |
+| | |  * Introduction to our project, what we're going to do, what we're going to learn |
+| | |  * Preliminary Team Assignments |
+| | |  * Build the [Kano PC](https://kano.me/us) |
+2 | 17-Sep-20 | Build Session |
 | | |  * What do _you_ think robotics is? |
 | | |  * What is robotics -- actually? [Consider these examples.](./intro_lecture.md) |
-| | |  * Introduction to our project, what we're going to do, what we're going to learn |
-2 | 17-Sep-20 | Build Session |
-| | |  * Team Assignments and Team names |
-| | |  * Select your chassis |
+| | |  * Team names |
 | | |  * Review project materials -- get building! |
 3 |24-Sep-20|Build Session|
 | | | * Show-n-Tell: Teams show their vehicles & talk about team decisions |
