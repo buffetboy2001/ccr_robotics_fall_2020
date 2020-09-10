@@ -2,7 +2,7 @@
 
 We're comfortable with the idea of robots. Lots of images come to mind of examples we've seen, stories we've heard. Science is advancing!
 
-The robots are here and we need to meet them.
+The robots are here and we need to meet them...or be prepared...or know what to do with them...or know what to think about them...or, what?
 
 ![National Geographic](./pics/robotic_examples/natgeo_cover.jfif)
 
@@ -17,7 +17,7 @@ Robots can build cars
 
 Robots can deliver convenience products
 
-![Food Delivery](./pics/robotic_examples/gmu_food_delivery.jpg)
+![Food Delivery @ GMU](./pics/robotic_examples/gmu_food_delivery.jpg)
 
 ## Home Stuff
 
@@ -44,4 +44,8 @@ And look super creepy...
 
 ---
 
-So: what _is_ a robot?
+But still: what _is_ a robot?
+
+Robotics is a discipline: engineering + computer science.
+
+The goal of robotics: design machines that operate autonomously to perform a complex task that humans normally do. The robot should be able to help & assist the human.
