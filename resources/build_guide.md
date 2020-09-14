@@ -22,12 +22,10 @@ You will need these on your project mat:
 Assembly Steps:
 
 * On the L298N Motor Controller board, identify the wire ports labeled:
-    * OUT1, OUT2, OUT3, OUT4, GND, 12V. 
+    * OUT1, OUT2, OUT3, OUT4, GND, 12V.
     * Make sure at least two teammates can find them.
 * Using a screwdriver, loosen the screws in the terminal blocks labeled OUT1, OUT2, OUT3, and OUT4. Insert the stripped ends of wire into the terminal blocks.
 * Connect the wires from the battery holder to the L298N Motor Controller board.
     * Black wire to GND
     * Red wire to 12V
 * Tighten all screws _gently_ so that the wires stay in-place.
-
-
