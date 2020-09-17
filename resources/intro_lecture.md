@@ -1,8 +1,10 @@
 # Robot Examples
 
-We're comfortable with the idea of robots. Lots of images come to mind of examples we've seen, stories we've heard. Science is advancing!
+We're comfortable with the idea of robots. Lots of images come to mind of examples we've seen, stories we've heard. The stories have been around for quite a while... 
 
-The robots are here and we need to meet them...or be prepared...or know what to do with them...or know what to think about them...or, what?
+![wall-e](./pics/robotic_examples/wall-e.jpg)
+
+And, hey, scientific knowledge is advancing! The robots are here and we need to meet them...or be prepared...or know what to do with them...or know what to think about them...or, what?
 
 ![National Geographic](./pics/robotic_examples/natgeo_cover.jfif)
 

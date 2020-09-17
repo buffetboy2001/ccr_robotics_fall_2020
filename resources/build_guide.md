@@ -2,19 +2,44 @@
 
 _by Mr. Bowman_
 
-This guide has my name on it, but is lovingly based on the wonderful guide found [on raspberrypi.org](https://projects.raspberrypi.org/en/projects/build-a-buggy). In some cases, I have even copied & pasted their text. :) Think of this as a modern example of pseudopigraphy.
+This guide has my name on it, but is lovingly based on the wonderful guide found [on raspberrypi.org](https://projects.raspberrypi.org/en/projects/build-a-buggy). In some cases, I have even copied & pasted their guide's text. :) Think of this as a modern example of pseudopigraphy.
 
 ## Vehicle Assembly Basics
 
 * Design Decision: Figure out which end is forward. Draw a clear arrow on the board pointing forward. Make sure your whole team agrees on this decision.
-* Decorate your chassis! May as well. You have markers and stickers -- take turns & go for it!
+* Decorate your chassis! May as well. You have markers and stickers -- pass it around & make it your own!
 * Component Layout: figure out where your major components are going to fit on the chassis. Pay attention to:
     * Raspberry Pi
     * Wheel locations
+        * **Design Decision**: Discuss as a team if you want to use one castor wheel or two. Either way is fine, but have the discussion. Screw them into place.
     * USB battery location
     * AA battery location
     * L298N location
-* Design Decision: Decide if you want to use one castor wheel or two. Screw them into place.
+    
+    **NOTE**: Feel free to mark the board up using your Sharpie.
+
+Feel free to pick a new team name. If you do, make sure you tell Mr. Bowman what your new name is. 
+
+## Raspberry Pi Interaction
+
+Your Pi is a computer on it's own. But, it's not connected to a monitor, keyboard, or mouse. :( So, if you want to do stuff on it....what ya gonna do? Follow these instructions to get your Kano connected to your Pi. This will allow you to wirelessly control the Pi from your Kano. 
+* Turn on your Kano and log in as `Team-whatever`
+* Make sure you have an internet connection
+* Turn on the Mobile Hotspot connection
+* Turn on your Pi
+* On the Kano, you should see the Pi connect
+    * Figure out the IP address of the Pi
+* On the Kano:
+    * Open a terminal window
+    * Type: `ssh pi@<rpi_ip>`
+    * Type: `./run_vncserver.sh`
+    * Type: `exit`
+    * Open VNC Viewer
+    * Connect to the Pi
+* In the Pi view, open your code editor:
+    * `code-oss` is your friend when it comes to writing Python code!
+
+FYI: This connection will last for as long as the Pi is on. If you turn it off or run out of battery power for the Pi, the connection will drop.
 
 ## Wheel Testing & Assembly
 
@@ -25,7 +50,7 @@ You will need these on your project mat:
 * Both motors (wheels don't need to be connected). Wires must be connected to the motor.
 * Raspberry Pi
 
-![quick mat view]((resources/pics/)
+![mat view](pics/components_on_mat.jpg)
 
 ### Assembly Steps
 
@@ -54,28 +79,9 @@ No worries! You'll also connect 4 AA batteries and use _those_ to power the whee
     * the black wire on the AA battery case to GND
 * Tighten all screws _gently_ so that the wires stay in-place.
 
-### Raspberry Pi Interaction
+## Connect the Raspberry Pi to your Components
 
-Your Pi is a computer on it's own. But, it's not connected to a monitor, keyboard, or mouse. :( So, if you want to do stuff on it....what ya gonna do? Follow these instructions to get your Kano connected to your Pi. This will allow you to wirelessly control the Pi from your Kano. 
-* Turn on your Kano and log in as `TeamX`
-* Make sure you have an internet connection
-* Turn on the Mobile Hotspot connection
-* Turn on your Pi
-* On the Kano, you should see the Pi connect
-    * Figure out the IP address of the Pi
-* On the Kano:
-    * Open a terminal window
-    * Type: `ssh pi@<rpi_ip>`
-    * Type: `./run_vncserver.sh`
-    * Type: `exit`
-    * Open VNC Viewer
-    * Connect to the Pi
-
-FYI: This connection will last for as long as the Pi is on. If you turn it off or run out of battery power for the Pi, the connection will drop. 
-
-### Connect the Raspberry Pi to your Components
-
-Time to get you components connected to the robot brain -- the Raspberry Pi! Bu
+Time to get your components connected to the robot brain -- the Raspberry Pi! 
 
 ----
 
