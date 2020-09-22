@@ -16,6 +16,7 @@ Next:
 * Make sure you have an internet connection
     * Get Mr. Bowman if you don't!
 * Turn on the Mobile Hotspot connection
+    ![windows10 mobile hotspot](./pics/mobile_hotspot_w10.jpg)
 * Connect the USB-C to your Pi and then to your USB battery pack
     * This should make your Pi come alive! Look for Red & Green LEDs.
 * On the Kano, you should see the Pi connect in the Mobile Hotspot page
