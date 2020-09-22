@@ -2,7 +2,7 @@
 
 _by Mr. Bowman_
 
-This guide has my name on it, but is lovingly based on the wonderful guide found [on raspberrypi.org](https://projects.raspberrypi.org/en/projects/build-a-buggy). In some cases, I have even copied & pasted their guide's text. :) Think of this as a modern example of pseudopigraphy.
+This guide has my name on it, but is lovingly based on the wonderful guide found [on raspberrypi.org](https://projects.raspberrypi.org/en/projects/build-a-buggy). In some cases, I have even copied & pasted their guide's text. :) It's not plagiarism; maybe this as a modern example of pseudopigraphy.
 
 ## Vehicle Planning
 
@@ -17,5 +17,17 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 [go there](./wheel_testing.md)
 
 ## Vehicle Assembly
+
+TODO
+
+## Vehicle Playing
+
+TODO
+
+## Add the Line Sensors
+
+TODO
+
+## Line Following
 
 TODO
