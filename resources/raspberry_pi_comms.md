@@ -17,7 +17,8 @@ Using the Kano:
 * Make sure you have an internet connection
     * Get Mr. Bowman if you don't!
 * Turn on the Mobile Hotspot connection -- see pic below
-    ![windows10 mobile hotspot](./pics/mobile_hotspot_w10.jpg)
+
+    ![windows10 mobile hotspot](./pics/mobile_hotspot_w10_thumbnail.jpg)
 
 Using the Pi:
 * Connect the USB-C to your Pi and then to your USB battery pack
@@ -42,12 +43,18 @@ To get an awesome desktop view, do this:
 * In the terminal, type: `exit`
 * On the Kano, open RealVNC Viewer
     * Hint: it's in your app menu under `R` like this picture shows
+
 ![](./pics/win10_vncviewer_menu_thumbnail.jpg)
+
 * In the connection window: enter the `<pi_ip_address>:1`
+
 ![](./pics/vnc_connection_thumbnail.jpg)
+
 * Click `Continue` to the security warning
 * Enter the Pi's username and password. See pic below:
+
 ![](./pics/vnc_authentication_thumbnail.jpg)
+
 * Click `Ok`
 
 Now you've got a full desktop running on your Pi! It should look like the pic below. Feel free to click around on the Pi and check it out. Don't turn off WiFi -- you'll lose your connection to the Kano!
