@@ -1,6 +1,6 @@
 # Vehicle Planning
 
-* Design Decision: Figure out which end is forward. Draw a clear arrow on the board pointing forward. Make sure your whole team agrees on this decision.
+* **Design Decision**: Figure out which end is forward. Draw a clear arrow on the board pointing forward. Make sure your whole team agrees on this decision.
 * Decorate your chassis! May as well. You have markers and stickers -- pass it around & make it your own!
 * Component Layout: figure out where your major components are going to fit on the chassis. Pay attention to:
     * Raspberry Pi
@@ -10,6 +10,6 @@
     * AA battery location
     * L298N location
     
-    **NOTE**: Feel free to mark the board up using your Sharpie.
+    **NOTE**: Record your component locations so that you don't forget. Take notes, mark the board up using your Sharpie, whatever you need to do to remember.
 
-Feel free to pick a new team name. If you do, make sure you tell Mr. Bowman what your new name is. 
+* One last thing. Feel free to pick a team name. If you do, make sure you tell Mr. Bowman what your new name is.
