@@ -36,6 +36,7 @@ Using the Kano:
 You're in! This terminal is logged-in to the Pi and you are typing words on the Pi, not the Kano.
 
 ## Get a Desktop View
+
 Why settle for a terminal view? This can be better!
 
 To get an awesome desktop view, do this:
