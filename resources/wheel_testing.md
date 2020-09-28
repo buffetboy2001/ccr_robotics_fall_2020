@@ -9,7 +9,7 @@ It's time to do some simple programming!
 We're going to have a class learning session devoted to the Python computer language. But, for now this guide will just give you the words to type. Just follow along!
 
 Get your Kano & Raspberry Pi connected and make sure you've got your VNC Session active.
-* Don't remember how to do this? Review to the [Raspberry Pi Comms](./rasberry_pi_comms.md) module.
+* Don't remember how to do this? Review to the [Raspberry Pi Comms](raspberry_pi_comms.md) module.
 
 **NOTE**: Don't connect the AA batteries to the L298N Motor Controller board yet.
 
