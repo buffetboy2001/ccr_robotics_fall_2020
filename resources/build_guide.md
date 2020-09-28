@@ -12,15 +12,16 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 [go there](./rasberry_pi_comms.md)
 
-## Wheel Testing & Assembly
+## Wheel Assembly
+
+[go there](./wheel_assembly.md)
+
+## Wheel Testing
 
 [go there](./wheel_testing.md)
 
-## Vehicle Assembly
 
-TODO
-
-## Vehicle Playing
+## Vehicle Building & Playing
 
 TODO
 

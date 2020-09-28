@@ -67,3 +67,7 @@ Now you've got a full desktop running on your Pi! It should look like the pic be
 When it comes time to writing computer code on your Pi, you'll need a code editor. And you have one. It's called `code-oss`. Go find it in the menu on the upper left of the Pi's screen. `Programming -> code-oss`
 
 **NOTE**: Your connection to the Pi will last for as long as the Pi is on. If you turn the Pi off or let it run out of battery power or disconnect the WiFi, the connection will drop. :(
+
+---
+
+**Module Complete**
