@@ -12,5 +12,3 @@
 
 ## Pre-class Setup Todo
 
-*  Make each Kano to setup a wifi share by default. Make each rpi connect only to correct kano.
-
