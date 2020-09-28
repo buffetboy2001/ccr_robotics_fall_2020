@@ -30,7 +30,7 @@ Using the Kano:
     * Write this number down; it won't change very often.
 * Then:
     * Open a terminal window (Windows+R, then type `cmd`, then `enter`)
-    * Type: `ssh pi@<pi_ip_address>`
+    * Type: `ssh pi@<put_ip_address_here>`
     * Enter the same password you used to log-on to the Kano
 
 You're in! This terminal is logged-in to the Pi and you are typing words on the Pi, not the Kano.

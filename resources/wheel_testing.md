@@ -71,7 +71,7 @@ Your wheels should start turning!
 
 ## Which Way Is Forward?
 
-The wheels should stop spinning after 20 seconds. After they have stopped spinning, have a team discussion about which way the yellow motors should spin in order to create **forward** motion. Think through where they will be on the chassis (wooden board) and which direction you marked as **forward** on your chassis. Once you have agreed:
+The wheels should stop spinning after 20 seconds. After they have stopped spinning, have a team discussion about which way the yellow motors should spin in order to create **forward** motion. Think through where they will be on the chassis (wooden board) and which direction you marked as **forward** on your chassis. Once you have agreed...
 
 On each yellow wheel motor:
 * Mark the forward direction with your Sharpie.
