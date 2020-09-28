@@ -23,6 +23,10 @@ Success!
 
 ![](resources/pics/movie_as_gif.webp)
 
+## Build Guide
+
+Take a look at the [build guide](./resources/build_guide.md).
+
 ## Syllabus
 
 Take a look at the [course syllabus](./resources/syllabus.md).
