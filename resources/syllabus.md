@@ -15,15 +15,15 @@ The syllabus will remain fluid until close to the start of classes. Things may b
 | | |  * Team names |
 | | |  * Review project materials -- get building! |
 3 |24-Sep-20|Build Session|
-| | | * Show-n-Tell: Teams show their vehicles & talk about team decisions |
-4|01-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
+| | | Build Session |
+4|01-Oct-20| Build Session|
 5|08-Oct-20|Introduction to [Raspberry Pi Computing](https://www.raspberrypi.org)|
 6|15-Oct-20|Build Session|
 7|22-Oct-20|Build Session|
 8|29-Oct-20|Introduction to [Python Computer Language](https://www.python.org)|
 9|05-Nov-20|Introduction to [Python Computer Language](https://www.python.org)|
 10|12-Nov-20|Build Session|
-11|19-Nov-20|Build Session|
+11|19-Nov-20|Show-n-Tell: Teams show their vehicles & talk about team decisions|
 --|26-Nov-20|No School -- Thanksgiving Break|
 12|03-Dec-20|Build Session|
 13|10-Dec-20|Show Us Your Robot!|

@@ -20,10 +20,9 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 [go there](./wheel_testing.md)
 
-
 ## Vehicle Building & Playing
 
-TODO
+[go there](./vehicle_build.md)
 
 ## Add the Line Sensors
 
