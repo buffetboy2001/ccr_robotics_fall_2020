@@ -42,7 +42,7 @@ robby.stop()
 * Click **File -> Save** to save this file
 * Save the file as `robby.py`
 
-Congratulations! You've just written some Python code. ![python_thumbnail](pics/python_thumbnail_small.jpg) 
+Congratulations! You've just written some Python code. ![python_thumbnail](pics/python_thumbnail_small.jpg)
 
 Now, let's run this code and see what it does!
 
@@ -77,7 +77,7 @@ On each yellow wheel motor:
 * Mark the forward direction with your Sharpie.
 * Mark the side: `left` or `right`
 
-Like this, but make sure you get your arrows pointing in the correct direction for your design: 
+Like this, but make sure you get your arrows pointing in the correct direction for your design:
 ![motors labelled pic from https://projects.raspberrypi.org/en/projects/build-a-buggy/2](pics/motors_labelled.jpg)
 
 Now, run the python code again and see if the wheels are spinning in the correct direction.
@@ -86,21 +86,21 @@ Now, run the python code again and see if the wheels are spinning in the correct
 Tip: In the terminal window, you can use the up arrow to get to a previously typed command. Try it!
 ```
 
-If the wheels are spinning in the correct direction, then you just got super lucky. Congratulate your team on a job accidentally well-done. :D
+If the wheels are spinning in the correct direction, then you just got super lucky. Congratulate your team on a job accidentally well-done. :grin:
 
-But, the wheels probably aren't spinning the correct direction. You can fix this **in the Python code**! 
+But, the wheels probably aren't spinning the correct direction. You can fix this **in the Python code**!
 
 ### Change the Direction of the Left Wheel
 
-Look back at the code that you wrote. Find the `left=(7, 8)`. If your left wheel is spinning backwards, then reverse the numbers. Like this: `left=(8, 7)`. Make sure you save the code after you have modified it. Then run the python code again in the terminal. 
+Look back at the code that you wrote. Find the `left=(7, 8)`. If your left wheel is spinning backwards, then reverse the numbers. Like this: `left=(8, 7)`. Make sure you save the code after you have modified it. Then run the python code again in the terminal.
 
 ### Change the Direction of the Right Wheel
 
 Look back at the code that you wrote. Find the `right=(9, 10)`. If your left wheel is spinning backwards, then reverse the numbers. Like this: `right=(10, 9)`. Make sure you save the code after you have modified it. Then run the python code again in the terminal.
 
-**Question**: Instead of modifying the code to make your wheels spin in the correct direction, what other action could you have taken? Think it through. This is a **wired** device! 
+**Question**: Instead of modifying the code to make your wheels spin in the correct direction, what other action could you have taken? Think it through. This is a **wired** device!
 
-Once you have both wheels spinning in the correct direction for **forward**, write down some notes for future self. 
+Once you have both wheels spinning in the correct direction for **forward**, write down some notes for your future self.
 * the left and right numbers in your code
 * the color of the wires and which **GPIO** pins they are connected to on the Raspberry Pi.
 
