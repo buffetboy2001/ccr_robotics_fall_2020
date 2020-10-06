@@ -11,7 +11,7 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 ## Raspberry Pi Interaction
 
 [go there](./rasberry_pi_comms.md)
-3231
+
 ## Wheel Assembly
 
 [go there](./wheel_assembly.md)
@@ -23,6 +23,10 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 ## Vehicle Building & Playing
 
 [go there](./vehicle_build.md)
+
+## Beyond Forward & Reverse
+
+[go there](./vehicle_control.md)
 
 ## Add the Line Sensors
 

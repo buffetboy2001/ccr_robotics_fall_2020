@@ -10,7 +10,7 @@ Use your zip ties to connect everything solidly to the chassis. (Zip ties are an
 
 Here's the kind of design you're looking for. But make sure you follow your original design for each component's place, not this picture.
 
-![Mr. Bowman's Robby picture](pics/vehicle_battery_on_floor.jpg)
+![Mr. Bowman's Robby picture](pics/vehicle_battery_on_floor_small.jpg)
 
 ## Drive Robby Forward
 

@@ -1,7 +1,6 @@
 # Wheel Assembly
 
-**Module Goal**: know which pins make both motor run the wheels in a forward direction.
-
+**Module Goal**: learn how the wheels connect to the Pi.
 
 Before doing the full assembly, you'll need to make sure your wheels work. This module will show you how to test it all -- using the Pi.
 
@@ -14,7 +13,7 @@ You will need these on your project mat:
 * Raspberry Pi
 * USB battery for Pi
 
-![mat view](pics/components_on_mat.jpg)
+![mat view](pics/components_on_mat_small.jpg)
 
 **NOTE**: The picture shows the castor wheels also. Oops! You don't need them for this step.
 
@@ -51,7 +50,7 @@ Time to get your components connected to the robot brain -- the Raspberry Pi!
 
 **NOTE**: Always keep your Pi turned **OFF** when connecting wires!
 
-Get 4 female-to-female wires. If that are connected together along their length, gently pull them apart.
+Get 5 female-to-female wires. If that are connected together along their length, gently pull them apart.
 
 * On your L298N Motor Controller board, identify **IN1**, **IN2**, **IN3**, **IN4**.
 * Connect the 4 wires to each of the **IN**s.
@@ -76,7 +75,7 @@ Now your Raspberry Pi and your L298N Motor Controller board are connected!
 
 The L298N Motor Controller Board should be looking like this:
 
-![](pics/l298n_close_up.jpg)
+![](pics/l298n_close_up_small.jpg)
 
 If you're not sure, ask Mr. Bowman for a double-check!
 

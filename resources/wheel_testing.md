@@ -78,7 +78,7 @@ On each yellow wheel motor:
 * Mark the side: `left` or `right`
 
 Like this, but make sure you get your arrows pointing in the correct direction for your design:
-![motors labelled pic from https://projects.raspberrypi.org/en/projects/build-a-buggy/2](pics/motors_labelled.jpg)
+![motors labelled pic from https://projects.raspberrypi.org/en/projects/build-a-buggy/2](pics/motors_labelled_small.jpg)
 
 Now, run the python code again and see if the wheels are spinning in the correct direction.
 
