@@ -2,7 +2,7 @@
 
 **Module Goal**: learn which pins make both motors run the wheels in a forward direction.
 
-It's time to do some simple programming!
+So...It's time to do some simple programming!
 
 ## Time to Get Python-ic  ![Time to get Python-ic](pics/python_thumbnail_small.jpg)
 
@@ -13,21 +13,23 @@ Get your Kano & Raspberry Pi connected and make sure you've got your VNC Session
 
 **NOTE**: Don't connect the AA batteries to the L298N Motor Controller board yet.
 
+On the Raspberry Pi:
+
 * Open `code-oss`
 * Click **Open Folder...**
 * Click **Home** on the left menu bar
-* Click **robotics_class**
+* Click **robotics_class** (or a folder named something like this)
 * Click **OK**
 
 Now, let's open a new file and write some Python code.
 
 * Click **New file...**
-* Add this to the file:
+* Add this to the file the following python code:
 
 ```python
 #!/bin/python3
 
-# Our team's simple test module
+# Our first test module
 
 from gpiozero import Robot
 import time
@@ -49,14 +51,14 @@ Now, let's run this code and see what it does!
 ---
 
 Connect the 4 AA batteries so that the L298N Motor Controller board has electrical power. It should have a bright red light if you've got the batteries connected correctly.
-* Not working? Double-check your wire connections from the [wheel assemble](wheel_assembly.md) module.
+* Not working? Double-check your wire connections from the [wheel assembly](wheel_assembly.md) module.
 
-* Open the terminal on the Pi
+* Open the terminal on the Pi by clicking the icon shown in this pictue:
 ![rpi_terminal](pics/rpi_terminal_menu_item.png)
 
 In the terminal, type:
-* `cd robotics_class` and then **Enter**
-* `ls` and then **Enter**
+* Change directories by typing `cd robotics_class` and then **Enter**
+* Show all the files in this folder by typing `ls` and then **Enter**
 
 This should show you a list of files. You should see the file you created above: `robby.py`. Like the red underlined file in the pic below.
 * If you don't, ask Mr. Bowman for help.
@@ -71,7 +73,7 @@ Your wheels should start turning!
 
 ## Which Way Is Forward?
 
-The wheels should stop spinning after 20 seconds. After they have stopped spinning, have a team discussion about which way the yellow motors should spin in order to create **forward** motion. Think through where they will be on the chassis (wooden board) and which direction you marked as **forward** on your chassis. Once you have agreed...
+The wheels should stop spinning after 20 seconds. After they have stopped spinning, have a team discussion about which way the yellow motors should spin in order to create **forward** motion. Think through where they will be on the chassis (the wooden board) and which direction you marked as **forward** on your chassis. Once you have agreed...
 
 On each yellow wheel motor:
 * Mark the forward direction with your Sharpie.
