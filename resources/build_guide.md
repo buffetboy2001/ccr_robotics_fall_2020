@@ -35,3 +35,8 @@ TODO
 ## Line Following
 
 TODO
+
+## Miscellaneous Topics
+
+* Python Intro Course: [go there](./python_lecture.md)
+* Linux Operation System Intro: [go there](./linux_intro.md)
