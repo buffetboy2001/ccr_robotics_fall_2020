@@ -40,3 +40,4 @@ TODO
 
 * Python Intro Course: [go there](./python_lecture.md)
 * Linux Operation System Intro: [go there](./linux_intro.md)
+* What Is An Algorithm?

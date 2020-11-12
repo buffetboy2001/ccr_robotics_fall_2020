@@ -1,6 +1,8 @@
 # Raspberry Pi Communication
 
-Your Pi is a computer on it's own. But, it's not connected to a monitor, keyboard, or mouse. :( So, if you want to see what it's displaying and type words on it...what ya gonna do?
+**Module Goal**: wirelessly connect your Kano and Raspberry Pi.
+
+Your Pi is a computer on its own. But, it's not connected to a monitor, keyboard, or mouse. :( So, if you want to see what it's displaying and type words on it...what ya gonna do?
 
 Follow these instructions to get your Kano connected to your Pi. This will allow you to wirelessly view and type on the Pi from your Kano.
 
