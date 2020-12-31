@@ -2,7 +2,7 @@
 
 **Module Goal**: connect the line sensors to your Pi and tune each to recognize a black line on a white background.
 
-Acknowledgement: significant portions of this module are copied directly from the [official Raspberry Pi tutorial](https://projects.raspberrypi.org/en/projects/rpi-python-line-following). But we skip the pesky soldering step :D
+*Acknowledgement*: significant portions of this module are copied directly from the [official Raspberry Pi tutorial](https://projects.raspberrypi.org/en/projects/rpi-python-line-following). But we skip the pesky soldering step :joy:
 
 ## What You Need
 
@@ -58,7 +58,6 @@ The sensors have a blue light that turns on and off. It should be on when over a
 1. Use the small potentiometer on the board to tune your sensors, so that the LEDs turn off when over a dark line, and lights up blue when over white space.
 
 ![pic from Raspberry Pi tutorial](pics/tune_line_sensors.jpg)
-
 
 Once both line sensors work correctly, show Mr. Bowman!
 
