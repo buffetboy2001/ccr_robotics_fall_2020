@@ -34,7 +34,7 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 ## Line Following
 
-TODO
+[go there](./line_following.md)
 
 ## Miscellaneous Topics
 
