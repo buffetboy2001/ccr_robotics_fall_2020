@@ -30,7 +30,7 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 ## Add the Line Sensors
 
-TODO
+[go there](./line_sensors.md)
 
 ## Line Following
 
