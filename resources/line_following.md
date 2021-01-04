@@ -31,7 +31,7 @@ Start `Robby` over top of the black line such that both line sensors show a blue
 
 This is a basic line-following algorithm. It won't be pretty! But, it should work.
 
-**Challenge**: Discuss your ideas for making it better?
+**Challenge**: Discuss your ideas for making a better algorithm.
 
 ---
 
