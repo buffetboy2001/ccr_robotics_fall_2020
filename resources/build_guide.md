@@ -36,8 +36,16 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 [go there](./line_following.md)
 
-## Miscellaneous Topics
+---
 
-* Python Intro Course: [go there](./python_lecture.md)
-* Linux Operation System Intro: [go there](./linux_intro.md)
-* What Is An Algorithm?
+## Miscellaneous & Optional Topics
+
+These are all designed to be 5-10 minutes quickies.
+
+* Introduction to Python Programming Course: [go there](./slides_with_python_code.html)
+* Raspberry Pi Operation System Intro: [go there](./linux_intro.md)
+* What Is An Algorithm? [go there](./slides_algorithms_intro.html)
+
+---
+
+~ _Happy Robot-ing_ ~
