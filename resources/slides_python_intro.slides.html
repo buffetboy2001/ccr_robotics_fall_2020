@@ -14414,12 +14414,6 @@ div.jp-OutputPrompt {
 </div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="pics/python-logo-master-v3-TM.png" alt=""></p>
-
-</div>
-</div></section></section><section><section>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <hr>
 <div class="highlight"><pre><span></span><span class="c1"># Our team&#39;s simple test module</span>
 
@@ -14438,7 +14432,7 @@ div.jp-OutputPrompt {
 </div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Thinking-In-Python-(little-by-little)">Thinking In Python (little-by-little)<a class="anchor-link" href="#Thinking-In-Python-(little-by-little)">&#182;</a></h1><hr>
+<h1 id="Thinking-In-Python-|-Code-Comments">Thinking In Python | Code Comments<a class="anchor-link" href="#Thinking-In-Python-|-Code-Comments">&#182;</a></h1><hr>
 
 </div>
 </div><div class="fragment">
@@ -14473,7 +14467,7 @@ div.jp-OutputPrompt {
 </div></div></section></section><section><section>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Thinking-In-Python-(little-by-little)">Thinking In Python (little-by-little)<a class="anchor-link" href="#Thinking-In-Python-(little-by-little)">&#182;</a></h1><hr>
+<h1 id="Thinking-In-Python-|-Machine-Instructions">Thinking In Python | Machine Instructions<a class="anchor-link" href="#Thinking-In-Python-|-Machine-Instructions">&#182;</a></h1><hr>
 
 </div>
 </div>
@@ -14486,7 +14480,7 @@ div.jp-OutputPrompt {
 </div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">gpiozero</span> <span class="kn">import</span> <span class="n">Robot</span>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">gpiozero</span> <span class="kn">import</span> <span class="n">Robot</span>    <span class="c1"># &lt;-- this is a library import statement</span>
 <span class="kn">import</span> <span class="nn">time</span>
 </pre></div>
 
@@ -14494,28 +14488,28 @@ div.jp-OutputPrompt {
 </div></div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="n">robby</span> <span class="o">=</span> <span class="n">Robot</span><span class="p">(</span><span class="n">left</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">),</span> <span class="n">right</span><span class="o">=</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
+<div class="highlight"><pre><span></span><span class="n">robby</span> <span class="o">=</span> <span class="n">Robot</span><span class="p">(</span><span class="n">left</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">),</span> <span class="n">right</span><span class="o">=</span><span class="p">(</span><span class="mi">9</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>    <span class="c1"># &lt;-- variable = value</span>
 </pre></div>
 
 </div>
 </div></div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="n">robby</span><span class="o">.</span><span class="n">forward</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><span class="n">robby</span><span class="o">.</span><span class="n">forward</span><span class="p">()</span>  <span class="c1"># &lt;-- execute the &quot;forward&quot; command</span>
 </pre></div>
 
 </div>
 </div></div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>
+<div class="highlight"><pre><span></span><span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">20</span><span class="p">)</span>    <span class="c1"># &lt;-- Python sleep command stops right here for X seconds</span>
 </pre></div>
 
 </div>
 </div></div><div class="fragment">
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<div class="highlight"><pre><span></span><span class="n">robby</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>
+<div class="highlight"><pre><span></span><span class="n">robby</span><span class="o">.</span><span class="n">stop</span><span class="p">()</span>    <span class="c1"># &lt;-- execute the &quot;stop&quot; command</span>
 </pre></div>
 <hr>
 

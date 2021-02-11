@@ -31,9 +31,19 @@ Do this again with three more wires. You should have 2 **'Y'** configurations no
 
 ![pic from Raspberry Pi tutorial](pics/line_sensor.jpg)
 
+<br>
+<br>
+<br>
+<br>
+
 2. Take one of your three-wire **'Y'** jumper leads, and connect two of its ends to the **VCC** pin on each of the two sensors.
 
 ![pic from Raspberry Pi tutorial](pics/line_sensors_connected_single_wire.jpg)
+
+<br>
+<br>
+<br>
+<br>
 
 3. Do it again with other **'Y'**. Take the second of your **'Y'** jumper leads and connect two ends to the **GND** pin on each line sensor.
 
@@ -43,11 +53,16 @@ Do this again with three more wires. You should have 2 **'Y'** configurations no
 
 ![pic from Raspberry Pi tutorial](pics/line_sensors_connected_all_wires.jpg)
 
-5. Now connect the **VCC** wire of both line sensors to a 5V pin on your Raspberry Pi, and the **GND** wire of the sensors to a GND pin on your Raspberry Pi. Each of the two **DO** pins can be connected to pins GPIO 17 and GPIO 27.
+5. Now connect the wires to the Raspberry Pi:
+
+* the **VCC** wire of both line sensors to a 5V pin on your Raspberry Pi;
+* the **GND** wire of the sensors to a GND pin on your Raspberry Pi;
+* the **LEFT** line sensor's **DO** pins must be connected to pin GPIO 17;
+* the **RIGHT** line sensor's **DO** must be connected to GPIO 27.
 
 6. Attach the line sensors to your chassis. Remember, zip-ties are your friend!!
 
-    * Take a look at Mr. Bowman's robot if you want some ideas.
+    * Take a look at Mr. Bowman's robot if you need some hints or ideas.
 
 ## Tune the Line Sensors
 
