@@ -3,8 +3,8 @@ from gpiozero import LineSensor
 from signal import pause
 from time import sleep
 
-CURVE_FRACTION = 0.65
-SLEEP_DURATION_SECONDS = 0.3
+CURVE_FRACTION = .8
+SLEEP_DURATION_SECONDS = 0.2
 FORWARD_SPEED = 0.5 # below 0.5 and there is too much friction to move
 
 robby = None

@@ -5,7 +5,7 @@ from time import sleep
 
 CURVE_FRACTION = 0.65
 SLEEP_DURATION_SECONDS = 0.3
-FORWARD_SPEED = 0.5 # below 0.5 and there is too much friction to move
+FORWARD_SPEED = 0.65 # below 0.5 and there is too much friction to move
 
 robby = None
 
