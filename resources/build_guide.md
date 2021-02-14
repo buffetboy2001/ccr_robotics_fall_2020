@@ -36,6 +36,14 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 [go there](./line_following.md)
 
+## Obstacle Sensing
+
+[go there](./obstacle_sensor.md)
+
+## Robby the Robot
+
+[go there]()
+
 ---
 
 ## Miscellaneous & Optional Topics
