@@ -11,23 +11,23 @@ from time import sleep
 
 robby = None
 
-def left_line_detected_response():
-    print('left: detected line...do something about it')
+def left_line_detected_white():
+    print('left on white...do something about it')
     # Add code here
     return
 
-def right_line_detected_response():
-    print('right: detected line...do something about it')
+def right_line_detected_white():
+    print('right on white...do something about it')
     # Add code here
     return
 
-def when_no_line_left_do_this():
-    print("left: no line")
+def left_line_detected_black():
+    print("left on black...")
     # Add code here
     return
 
-def when_no_line_right_do_this():
-    print("right: no line")
+def right_line_detected_black():
+    print("right on black...")
     # Add code here
     return
 
@@ -42,16 +42,17 @@ if __name__ == "__main__":
     right_sensor = LineSensor(14)
 
     # line detected behavior
-    left_sensor.when_no_line = when_no_line_left_do_this
-    right_sensor.when_no_line = when_no_line_right_do_this
+    left_sensor.when_no_line = left_line_detected_white
+    right_sensor.when_no_line = right_line_detected_white
 
     # no line detected behavior
-    left_sensor.when_line = left_line_detected_response
-    right_sensor.when_line = right_line_detected_response
+    left_sensor.when_line = left_line_detected_black
+    right_sensor.when_line = right_line_detected_black
 
     # start by going forward
     robby.forward(0.5)
 
-    sleep(10)
-    
+    # sleep(10)
+    pause()
+
     print("done")
