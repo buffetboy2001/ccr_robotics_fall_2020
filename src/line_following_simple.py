@@ -13,5 +13,5 @@ left_sensor.when_no_line = robby.forward
 right_sensor.when_line = robby.right
 right_sensor.when_no_line = robby.forward
 
-# pause()
+robby.forward()
 sleep(10)
