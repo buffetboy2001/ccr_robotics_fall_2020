@@ -29,7 +29,7 @@ Take a look at the [build guide](./resources/build_guide.md).
 
 ## Python Code
 
-Working python code for the Raspberry Pi is [in the src folder](../src/CodeReadme.md).
+Working python code for the Raspberry Pi is [in the src folder](./src/CodeReadme.md).
 
 ## Syllabus
 
