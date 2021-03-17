@@ -10,7 +10,7 @@ This guide has my name on it, but is lovingly based on the wonderful guide found
 
 ## Raspberry Pi Interaction
 
-[go there](./rasberry_pi_comms.md)
+[go there](./raspberry_pi_comms.md)
 
 ## Wheel Assembly
 
