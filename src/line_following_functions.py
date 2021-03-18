@@ -50,9 +50,10 @@ if __name__ == "__main__":
     right_sensor.when_line = right_sensor_detected_white
 
     # start by going forward
-    robby.forward(0.5)
+    # robby.forward(0.5)
 
     # sleep(10)
     pause()
 
+    robby.stop()
     print("done")
