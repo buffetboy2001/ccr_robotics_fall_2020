@@ -14,21 +14,25 @@ robby = None
 def left_sensor_detected_white():
     print('left on white...do something about it')
     # Add code here
+    robby.forward()
     return
 
 def right_sensor_detected_white():
     print('right on white...do something about it')
     # Add code here
+    robby.forward()
     return
 
 def left_sensor_detected_black():
     print("left on black...")
     # Add code here
+    robby.left()
     return
 
 def right_sensor_detected_black():
     print("right on black...")
     # Add code here
+    robby.right()
     return
 
 if __name__ == "__main__":
@@ -50,10 +54,10 @@ if __name__ == "__main__":
     right_sensor.when_line = right_sensor_detected_white
 
     # start by going forward
-    # robby.forward(0.5)
+    robby.forward(0.75)
 
-    # sleep(10)
-    pause()
+    sleep(20)
+    # pause()
 
     robby.stop()
     print("done")
