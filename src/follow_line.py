@@ -5,9 +5,9 @@ from gpiozero import LineSensor
 from signal import pause
 from time import sleep
 
-CURVE_FRACTION = 0.65
+CURVE_FRACTION = 1
 SLEEP_DURATION_SECONDS = 0.3
-FORWARD_SPEED = 0.65 # below 0.5 and there is too much friction to move
+FORWARD_SPEED = 0.6 # below 0.5 and there is too much friction to move
 LEFT_IS_ON_LINE = False
 RIGHT_IS_ON_LINE = False
 
@@ -18,11 +18,11 @@ def left_line_detected_response():
     global LEFT_IS_ON_LINE
     LEFT_IS_ON_LINE = True
     if LEFT_IS_ON_LINE and RIGHT_IS_ON_LINE:
-        robby.stop()
-        print('stopped')
+        # robby.forward(0.3)
+        # print('stopped')
         return
     robby.forward(curve_left=CURVE_FRACTION)
-    sleep(SLEEP_DURATION_SECONDS)
+    # sleep(SLEEP_DURATION_SECONDS)
     robby.forward(FORWARD_SPEED)
     return
 
@@ -31,11 +31,11 @@ def right_line_detected_response():
     global RIGHT_IS_ON_LINE
     RIGHT_IS_ON_LINE = True
     if LEFT_IS_ON_LINE and RIGHT_IS_ON_LINE:
-        robby.stop()
-        print('stopped')
+        # robby.forward(0.3)
+        # print('stopped')
         return
     robby.forward(curve_right=CURVE_FRACTION)
-    sleep(SLEEP_DURATION_SECONDS)
+    #sleep(SLEEP_DURATION_SECONDS)
     robby.forward(FORWARD_SPEED)
     return
 
@@ -64,16 +64,18 @@ if __name__ == "__main__":
     right_sensor = LineSensor(14)
 
     # line detected behavior
-    left_sensor.when_no_line = when_no_line_left_do_this
-    right_sensor.when_no_line = when_no_line_right_do_this
+    right_sensor.when_line = when_no_line_right_do_this
+    left_sensor.when_line = when_no_line_left_do_this
 
     # no line detected behavior
-    left_sensor.when_line = left_line_detected_response
-    right_sensor.when_line = right_line_detected_response
+    right_sensor.when_no_line = right_line_detected_response
+    left_sensor.when_no_line = left_line_detected_response
 
     # start by going forward
     robby.forward(FORWARD_SPEED)
     # pause()
-    sleep(20)
-    
+    sleep(40)
+
+    robby.stop()
+
     print("done")

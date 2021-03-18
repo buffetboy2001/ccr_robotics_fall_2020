@@ -11,24 +11,28 @@ from time import sleep
 
 robby = None
 
-def left_line_detected_white():
+def left_sensor_detected_white():
     print('left on white...do something about it')
     # Add code here
+    robby.forward()
     return
 
-def right_line_detected_white():
+def right_sensor_detected_white():
     print('right on white...do something about it')
     # Add code here
+    robby.forward()
     return
 
-def left_line_detected_black():
+def left_sensor_detected_black():
     print("left on black...")
     # Add code here
+    robby.left()
     return
 
-def right_line_detected_black():
+def right_sensor_detected_black():
     print("right on black...")
     # Add code here
+    robby.right()
     return
 
 if __name__ == "__main__":
@@ -41,18 +45,19 @@ if __name__ == "__main__":
     left_sensor = LineSensor(21)
     right_sensor = LineSensor(14)
 
-    # line detected behavior
-    left_sensor.when_no_line = left_line_detected_white
-    right_sensor.when_no_line = right_line_detected_white
+    # left sensor
+    left_sensor.when_no_line = left_sensor_detected_black
+    left_sensor.when_line = left_sensor_detected_white
 
-    # no line detected behavior
-    left_sensor.when_line = left_line_detected_black
-    right_sensor.when_line = right_line_detected_black
+    # right sensor
+    right_sensor.when_no_line = right_sensor_detected_black
+    right_sensor.when_line = right_sensor_detected_white
 
     # start by going forward
-    robby.forward(0.5)
+    robby.forward(0.75)
 
-    # sleep(10)
-    pause()
+    sleep(20)
+    # pause()
 
+    robby.stop()
     print("done")

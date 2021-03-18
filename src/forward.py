@@ -5,5 +5,5 @@ import setup
 
 robby = setup.get_robby()
 robby.forward()  # async
-time.sleep(5)
+time.sleep(2)
 robby.stop() # async
