@@ -17,11 +17,11 @@ We'll cover:
 * Introduction to the Python programming language
 * Introduction to electronics
 * And...we'll build a [simple buggy!](https://projects.raspberrypi.org/en/projects/build-a-buggy)
-* And...then we'll make it [drive on it's own!](https://projects.raspberrypi.org/en/projects/rpi-python-line-following).
+* And...then we'll make it [drive on its own!](https://projects.raspberrypi.org/en/projects/rpi-python-line-following).
 
 Success!
 
-![](resources/pics/movie_as_gif.webp)
+![](resources/pics/working_robot.gif)
 
 ## Build Guide
 
