@@ -25,8 +25,8 @@ Take a look at the [build guide](./resources/build_guide.md).
 
 ## Class Discussions
 
-* Python Computer Language: Intro >> [here](./slides_python_intro.slides.html)
-* Algorithms: Intro >> [here](./slides_algorithm_intro.slides.html)
+* Python Computer Language: Intro >> [here](./resources/slides_python_intro.slides.html)
+* Algorithms: Intro >> [here](./resources/slides_algorithm_intro.slides.html)
 
 ## Python Code
 
