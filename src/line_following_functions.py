@@ -13,25 +13,25 @@ robby = None
 
 def left_sensor_detected_white():
     print('left on white...do something about it')
-    # Add code here
+    # Add your code here
     robby.forward()
     return
 
 def right_sensor_detected_white():
     print('right on white...do something about it')
-    # Add code here
+    # Add your code here
     robby.forward()
     return
 
 def left_sensor_detected_black():
     print("left on black...")
-    # Add code here
+    # Add your code here
     robby.left()
     return
 
 def right_sensor_detected_black():
     print("right on black...")
-    # Add code here
+    # Add your code here
     robby.right()
     return
 
