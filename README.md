@@ -32,6 +32,8 @@ Take a look at the [build guide](./resources/build_guide.md).
 
 Working python code for the Raspberry Pi is [in the src folder](./src/CodeReadme.md).
 
+And, here's a [cheat sheet](./resources/robotics_cheat_sheet.md) for robotics functions, too!
+
 ## Syllabus
 
 Take a look at the [course syllabus](./resources/syllabus.md).
